@@ -1,0 +1,16 @@
+.json-viewer-container {
+    z-index: 1000;
+    border: 1px solid #555;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.5);
+}
+
+.json-string { color: #ce9178; }
+.json-number { color: #b5cea8; }
+.json-boolean { color: #569cd6; }
+.json-null { color: #569cd6; }
+.json-key { color: #9cdcfe; }
+
+pre.json-display {
+    line-height: 1.4;
+    tab-size: 2;
+}
